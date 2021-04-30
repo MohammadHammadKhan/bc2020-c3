@@ -1,15 +1,36 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+// import React from 'react';
+// import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// function Room(props){
+//   let [isLit,setLit]=React.useState(false)
+//   let [count,setCount]=React.useState(10)
+
+//   return <div className={isLit? 'light':'dark'}>Room is {isLit? 'light':'dark'} count is {count}
+//   <br/>
+//          <button onClick={()=>setLit(!isLit)}>ON-OFF</button>
+//          <button onClick={()=>setCount(count+1)}>+</button>
+//          <button onClick={()=>setCount(count-1)}>-</button>
+//          </div>
+
+// }
+
+
+ReactDOM.render(<App name='MHK' age={35}/>,document.getElementById('root'))
+// const Gate=({isopen})=>isopen? 'Open':'Closed'
+// const Hi=({name,age})=>{
+//   return <div>Hello World <strong>{name}</strong> age is {age}</div>
+// }
+// ReactDOM.render(<Gate isopen={true}/>,document.getElementById('root'))
+// ReactDOM.render(<Hi name='MHK' age={35}/>,document.getElementById('root'))
+// ReactDOM.render(
+//  <App name='MHK' age={35}/>,
+//   document.getElementById('root')
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
