@@ -20,7 +20,7 @@ import reportWebVitals from './reportWebVitals';
 // }
 
 
-ReactDOM.render(<App name='MHK' age={35}/>,document.getElementById('root'))
+ReactDOM.render(<App name='MHKk' age={35}/>,document.getElementById('root'))
 // const Gate=({isopen})=>isopen? 'Open':'Closed'
 // const Hi=({name,age})=>{
 //   return <div>Hello World <strong>{name}</strong> age is {age}</div>
